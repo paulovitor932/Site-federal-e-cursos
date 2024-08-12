@@ -1,0 +1,69 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/imagemFundo.jpg');
+    background-size: cover; /* Isso garante que a imagem cubra toda a área do corpo */
+    background-repeat: no-repeat; /* Isso evita a repetição da imagem */
+    background-attachment: fixed; /* Isso faz com que a imagem de plano de fundo fique fixa enquanto você rola a página */
+}
+
+.container {
+    border-radius: 5px;
+    border-style: none;
+    padding: 20px;
+    width: 30%; /* Define a largura de cada div */
+    background-color: rgba(255, 255, 255, 0.582);
+    box-shadow: 0 4px 6px rgb(6, 89, 104); /* Adiciona uma sombra ao nav */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Adicione estilos para as divs */
+.container div {
+    padding: 30px;
+    border-style: solid;
+    position: relative;
+    width: 100%; /* Define a largura da div interna */
+    margin: 0 auto; /* Centraliza as divs horizontalmente */
+}
+
+
+nav {
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: #333333;
+    text-align: center;
+    box-shadow: 0 4px 6px rgb(6, 89, 104); /* Adiciona uma sombra ao nav */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight: bold;
+    padding: 10px 20px; /* Adiciona preenchimento interno para criar espaçamento em torno do texto */
+    
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para a mudança de estilo */
+}
+
+a:hover {
+    background-color: rgb(6, 89, 104); /* Muda a cor de fundo ao passar o mouse */
+    border-color: rgb(6, 89, 104); /* Muda a cor da borda ao passar o mouse */
+}
